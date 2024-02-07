@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite,Chrome 121.0.0.0,,,06-02-2024 19:37:04,06-02-2024 19:37:48,44.176s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_login,Chrome 121.0.0.0,,,06-02-2024 19:37:04,06-02-2024 19:37:48,43.992s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,06-02-2024 19:37:04,06-02-2024 19:37:12,7.977s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,06-02-2024 19:37:12,06-02-2024 19:37:13,0.769s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,06-02-2024 19:37:13,06-02-2024 19:37:16,2.824s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Chrome 121.0.0.0,,,06-02-2024 19:37:16,06-02-2024 19:37:48,32.109s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,06-02-2024 19:37:48,06-02-2024 19:37:48,0.197s,PASSED

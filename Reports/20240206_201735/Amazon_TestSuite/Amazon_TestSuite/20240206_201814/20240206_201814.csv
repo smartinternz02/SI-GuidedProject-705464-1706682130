@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TestSuite,Chrome 121.0.0.0,,,06-02-2024 20:18:19,06-02-2024 20:18:40,20.800s,FAILED
+,,,,,,,
+Test Cases/Amazon/TC_login,Chrome 121.0.0.0,,,06-02-2024 20:18:19,06-02-2024 20:18:40,20.615s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,06-02-2024 20:18:20,06-02-2024 20:18:27,7.947s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,06-02-2024 20:18:27,06-02-2024 20:18:28,0.746s,PASSED
+"navigateToUrl(""https://www.amazon.in/"")",Chrome 121.0.0.0,,,06-02-2024 20:18:28,06-02-2024 20:18:32,4.168s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Online Shopping site in India Shop Onl_10c5f3/span_Sign in""))",Chrome 121.0.0.0,,,06-02-2024 20:18:32,06-02-2024 20:18:36,3.566s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign In/input_email""), ""gangipoguvamsi@gmail.com"")",Chrome 121.0.0.0,,,06-02-2024 20:18:36,06-02-2024 20:18:38,1.767s,PASSED
+"click(findTestObject(""Object Repository/Amazon_OR/Page_Amazon Sign In/inputcontinue""))",Chrome 121.0.0.0,,,06-02-2024 20:18:38,06-02-2024 20:18:39,0.782s,PASSED
+"verifyCheckpoint(findCheckpoint(""Checkpoints/Amazon_Login/Amazon_Login""), false)",Chrome 121.0.0.0,,,06-02-2024 20:18:39,06-02-2024 20:18:39,0.379s,PASSED
+acceptAlert(),Chrome 121.0.0.0,,,06-02-2024 20:18:39,06-02-2024 20:18:40,1.011s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,06-02-2024 20:18:40,06-02-2024 20:18:40,0.145s,PASSED
